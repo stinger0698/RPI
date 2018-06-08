@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RPI-video</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <h1>Application for searching videos in YouTube</h1>
+        <div class="search">
+            <form action="#" class="Search" onsubmit="GetResultFromYouTube(document.getElementById('SearchInput').value);return false;"> 
+                <input type="text" id="SearchInput" name="search" class="query SearchInput" placeholder="Search in YouTube">
+                <button type="submit" class="SearchButton">Search</button>
+            </form>
+        </div>
+    <section id="contentBlock" class="OutputVideo">    
+    </section>
+    <footer>
+        <p style="text-align: center; font-family: fantasy">Application for searching videos in YouTube</p>
+            
+	</footer>
+</body>
+</html>

@@ -1,0 +1,502 @@
+body {
+    background-color: red;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: Black;
+    font-size: 35px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	display: block;
+	font-style: italic;
+	position: fixed;
+	background: black;
+	bottom: 0;
+    left: 0;
+
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.SearchInput {
+    border-color: black;
+	border-style: double;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.SearchButton {
+    height: 35px;
+    width: 5%;
+    border-color: black;
+	border-style: double;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OutputVideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.channel {
+    color: blue;
+    font-family: fantasy;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+    font-family: fantasy;
+}
+
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+    
+    
+a {
+    text-decoration: none;
+}
+
+h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: Black;
+    font-size: 30px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	display: block;
+	font-style: italic;
+	position: fixed;
+	background: black;
+	bottom: 0;
+    left: 0;
+
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.SearchInput {
+    border-color: black;
+	border-style: double;
+    width: 50%;
+    height: 25px;
+    font-size: 15px;
+}
+
+.SearchButton {
+    height: 30px;
+    width: 7%;
+    border-color: black;
+	border-style: double;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    width: 90%
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OutputVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.channel {
+    color: blue;
+    font-family: fantasy;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+    font-family: fantasy;
+}
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+    
+    a {
+    text-decoration: none;
+}
+
+h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: Black;
+    font-size: 25px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	display: block;
+	font-style: italic;
+	position: fixed;
+	background: black;
+	bottom: 0;
+    left: 0;
+
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.SearchInput {
+    border-color: black;
+	border-style: double;
+    width: 40%;
+    height: 20px;
+    font-size: 10px;
+}
+
+.SearchButton {
+    height: 25px;
+    width: 10%;
+    border-color: black;
+	border-style: double;
+    padding-top: 3px;
+    font-size: 9px;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OutputVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 400px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.channel {
+    color: blue;
+    font-family: fantasy;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+    font-family: fantasy;
+}
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+    
+    a {
+    text-decoration: none;
+}
+    p{
+        font-size: 10px;
+    }
+
+h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: Black;
+    font-size: 5px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	display: block;
+	font-style: italic;
+	position: fixed;
+	background: black;
+	bottom: 0;
+    left: 0;
+
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.SearchInput {
+    border-color: black;
+	border-style: double;
+    width: 30%;
+    height:15px;
+    font-size: 5px;
+}
+
+.SearchButton {
+    height: 20px;
+    width: 15%;
+    border-color: black;
+	border-style: double;
+    padding-top: 3px;
+    font-size: 3px;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OutputVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 400px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.channel {
+    color: blue;
+    font-family: fantasy;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+    font-family: fantasy;
+}
+    
+@media only screen and (min-width: 200px), only screen and (min-device-width: 200px) {
+    a {
+    text-decoration: none;
+}
+
+h1{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: Black;
+    font-size: 5px;
+}
+    p{
+        font-size: 10px;
+    }
+
+footer{
+	width: 100%;
+	color: white;
+	display: block;
+	font-style: italic;
+	position: fixed;
+	background: black;
+	bottom: 0;
+    left: 0;
+
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search {
+    text-align: center;
+}
+
+.SearchInput {
+    border-color: black;
+	border-style: double;
+    width: 30%;
+    height:15px;
+    font-size: 5px;
+}
+
+.SearchButton {
+    height: 20px;
+    width: 15%;
+    border-color: black;
+	border-style: double;
+    padding-top: 3px;
+    font-size: 3px;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OutputVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 400px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.channel {
+    color: blue;
+    font-family: fantasy;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+    font-family: fantasy;
+}
